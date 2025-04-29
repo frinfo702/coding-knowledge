@@ -1,8 +1,11 @@
 # Programming Knowledge DeepWiki Seed
 
-このレポジトリは **「プログラミングそのもの」** に関する巨大ナレッジを Markdown と実践コードで蓄積し、  
-[deepwiki](https://deepwiki.example/) にインポートして AI が構造化 Wiki を生成できるようにするためのスターターです。
+このレポジトリはdeepwikiにプログラミングの設計や特定のプログラミング言語技術を超えた抽象的な問題を解決する知識や技術をまとめさせて、
+プログラミングで困ったときに見れば問題が解決するようにするためのものです。
 
+# Instruction to deepwiki
+deepwikiを作成する際、そのwikiは日本語で作成するようにしてください。
+多言語の使用は強く禁止します。(**Never use foreign languages other than Japanese!!**)
 ## ディレクトリ構成
 
 ```
