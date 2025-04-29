@@ -12,6 +12,5 @@ func LoadConfig(path string) error {
     if _, err := os.Stat(path); err != nil {
         return fmt.Errorf("%w: %v", ErrConfig, err)
     }
-    // あ
     return nil
 }

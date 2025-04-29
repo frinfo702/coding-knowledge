@@ -1,16 +1,14 @@
 class AppError(Exception):
-    """Domain base class."""
+    """Domain error base"""
 
 class NotFoundError(AppError):
     pass
 
-
-def fetch_user(uid):
+def fetch(uid):
     raise NotFoundError(f"user {uid} not found")
-
 
 if __name__ == "__main__":
     try:
-        fetch_user(42)
-    except AppError as exc:
-        print(f"[ERR] {exc!s}")
+        fetch(42)
+    except AppError as err:
+        print("[ERR]", err)
